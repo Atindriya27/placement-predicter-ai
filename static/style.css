@@ -1,0 +1,94 @@
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea, #4b8ea2);
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+
+.container {
+    margin-top: 0;
+}
+
+.card {
+    background: white;
+    color: black;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.btn-custom {
+    background-color: #667eea;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #5a67d8;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+h2, h3, h4 {
+    font-weight: bold;
+}
+
+.navbar {
+    margin: 0 !important;
+    padding: 10px 20px !important;
+    border-radius: 0 !important;
+}
+
+/* Remove weird spacing */
+.navbar span {
+    color: white;
+}
+
+/* Button polish */
+.navbar .btn {
+    border-radius: 10px;
+}
+
+body.light {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+body.dark {
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+/* Make full page height */
+html, body {
+    height: 100%;
+}
+
+/* Terms container full height */
+.terms-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
